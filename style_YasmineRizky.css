@@ -1,0 +1,118 @@
+/*ini adalah comment*/
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+img {
+    width: 50%;
+   
+}
+
+p {
+    text-align: justify;
+}
+
+/*paragraf*/
+p {
+    background-color: white;
+    color: rgb(56, 53, 53);
+    font-family: 'Franklin Gothic';
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 64px;
+    font-family: 'Franklin Gothic';
+    text-align: justify;
+}
+
+/*link*/
+a {
+    color: white;
+}
+
+table {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic';
+    text-align: center;
+}
+
+
+.wrapper-content {
+    background: white;
+    text-align: center;
+    color: black;
+}
+
+
+/*class*/
+.pback {
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    margin-right: 5%;
+}
+
+
+.back {
+    background-image: url(images/tugas6/pback.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 40%;
+    background-attachment: fixed;
+}
+
+.head {
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.head2 {
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+
+.par {
+    background-color: black;
+    color: white;
+    padding-top: 0;
+    padding-left: 10px;
+    border-left: 2px solid red;
+    margin-left: 12px;
+}
+
+
+.kel {
+    background-color: white;
+    color: orangered;
+    padding-left: 10px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+    border: 2px solid orangered;
+}
