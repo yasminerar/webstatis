@@ -1,0 +1,281 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    color : black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    font-size: 120%;
+}
+
+/*images size*/
+img {
+    width: 30%;
+    height: 20%;
+}
+
+
+#A {
+    background-color: #637554;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius:  10px;
+    border: 5px solid #343f28; 
+}
+/* css font */
+p, ol {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+Ol.a {
+    list-style-type: decimal;
+    font-family:sans-serif;
+    color: black;
+   
+}
+
+ table, th, td {
+         border: 1px solid;
+        margin:auto;
+      }
+    table {
+      width: 65%;
+      }
+     
+#C {
+    background-color: #637554; 
+    width: 100;
+    height: ;
+    border: 5px solid #343f28;
+    color: white;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#D {
+    text-align: center;
+}
+
+#E {
+    background-color: #637554;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #343f28; 
+  } 
+
+
+/*css icon*/
+
+    
+
+/*slideshow*/
+ * {box-sizing : border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+
+    
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        text-align: center;
+        justify-content: space-between;
+        padding: auto;
+        margin: auto;
+        }
+
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        }
+
+    .prev {
+        left: 20%;
+        border-radius: 3px 0 0 3px;
+        }
+        
+    .next {
+        right: 20%;
+        border-radius: 3px 0 0 3px;
+        }
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+    .active, .dot:hover {
+        background-color: #717171;
+        }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+    
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.back {
+    background-image: url(images/tugas7/backk.webp);
+    background-size:cover ;
+    padding-top: 0%;
+    padding-bottom: 40%;
+    background-attachment: fixed;
+}
+
+.parback {
+    border-radius: 5px;
+    background-color: #637554 ;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.paragraf {
+    background-color: #637554;
+    color: black;
+    font-size: large;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 12px;
+}
+
+/*link*/  
+a:link {
+    color: black;
+  }
+  
+  a:visited {
+    color: indigo;
+  }
+  
+ 
+  a:hover {
+    color: blanchedalmond;
+  }
+  
+  a:active {
+    color: chartreuse;
+  }
+
+.image{
+    display: block;
+    margin: auto;
+}
+  
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+   
+
+ }
+
+ .fa-instagram  {
+    color:black;
+    margin-left: 2%;
+ }
+
+ .fa-tiktok{
+    color:black;
+    margin-left: 2%;
+ }
+
+ .nama {
+    font-family: monospace;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+   
+
